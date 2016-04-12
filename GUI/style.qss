@@ -1,0 +1,116 @@
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-04-02 19:43:27
+ * @version $Id$
+ */
+
+QMainWindow {
+    background-color: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #8D9797, stop: 0.1 #A6A79C, stop: 0.5 #797368, stop: 1 #585449);
+    color: #f6f6f6;
+}
+
+QWidget {
+    color: #472429;
+    font: 12px;
+}
+
+QMenuBar {
+    background: transparent;
+    border-bottom: 1px solid grey;
+}
+
+QMenuBar:item {
+    background: transparent;
+}
+
+QMenuBar:item:selected {
+    background: #CDF466;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+QMenuBar::item:pressed {
+    background: #ECAB18;
+}
+
+QMenu {
+    background-color: #A6A79C;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+QMenu:item {
+    padding: 5px 20px;
+}
+
+QMenu:item:selected {
+    background: #CDF466;
+    border: 1px solid grey;
+    border-radius: 1px;
+}
+
+QMenu:item:pressed {
+    background-color: #ECAB18;
+}
+
+QStatusBar {
+    border-top: 1px solid grey;
+}
+
+QMessageBox {
+    background-color: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #8D9797, stop: 0.1 #A6A79C, stop: 0.5 #797368, stop: 1 #585449);
+    font: bold 12px;
+}
+
+QLineEdit {
+    background-color: #C8DFE0;
+    border: 1px solid grey;
+    border-radius: 2px;
+    color: #291717;
+}
+
+QListWidget {
+    background-color: #E3F4E6;
+}
+
+QListWidget:item:hover {
+    background-color: #E97A63;
+}
+
+QPushButton {
+    background-color: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #C5FAB6, stop: 0.1 #B4DA92, stop: 0.5 #91E484, stop: 1 #C1F2BA);
+    border-radius: 5px;
+    padding: 5px 15px;
+    font: bold 10px;
+}
+
+QPushButton:hover {
+    background-color: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6f6f6, stop: 0.1 #7DB9DC, stop: 0.5 #7EDEE0, stop: 1 #66D3D8);
+}
+
+QPushButton:pressed {
+    background-color: #ECAB18;
+}
+
+QRadioButton:indicator {
+    image: url(':/icons/icons/unchecked.png');
+}
+
+QRadioButton:indicator:checked {
+    image: url(':/icons/icons/checked.png');
+}
+
+QProgressBar {
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    font: bold 11px;
+}
+
+QProgressBar::chunk {
+    /*background-color: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #37C3E7, stop: 0.2 #1ECDED, stop: 0.4 #8DE3E0, stop: 0.6 #62BDF0, stop: 1 #2887E8);
+    */
+    background-color: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #E7E19B, stop: 0.2 #EBE482, stop: 0.4 #EAF078, stop: 0.6 #F5F937, stop: 1 #E9F10C);
+    width: 20px;
+}
